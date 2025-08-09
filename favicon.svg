@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A2BE2" /> <!-- Purple -->
+      <stop offset="50%" stop-color="#FF1493" /> <!-- Pink -->
+      <stop offset="100%" stop-color="#1E90FF" /> <!-- Blue -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="256" fill="url(#gradient)" />
+  
+  <!-- Music note -->
+  <path d="M320 128c0-5.3-4.7-10-10-10h-20c-5.3 0-10 4.7-10 10v165.5c-8.5-3.5-17.8-5.5-28-5.5-35.3 0-64 21.5-64 48s28.7 48 64 48 64-21.5 64-48V176h64c5.3 0 10-4.7 10-10v-20c0-5.3-4.7-10-10-10h-60z" fill="white" />
+</svg>
